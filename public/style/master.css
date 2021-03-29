@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: none;
+    font-family: Arial;
+    color: #fff;
+    
+}
+
+body {
+    font-size: 15px;
+    background: #131523;
+    text-align: center;
+}
+
+header {
+    height: 10vh;
+    width: 100vw;
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 5vh;
+    margin: 0 .5em;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+footer {
+    min-height: 10vh;
+}
+
+footer img {
+    height: 10vh;
+    margin-bottom: 1em;
+}
+
+
+.play h1 {
+    margin: 0 .5em 3em .5em;
+    border: 1px solid;
+    padding: .5em;
+}
+
+.bt {
+    padding: 1em;
+    min-width: 40vw;
+    max-width: 60vw;
+    color: #fff;
+    background: radial-gradient(circle, #098923, #07b514);
+    box-shadow: 1px 1px 3px #000;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+.addPlayer {
+    display: none;
+}
+
+.in {
+    padding: 1em 2em;
+    min-width: 40vw;
+    max-width: 60vw;
+    background: rgba(0,0,0,0);
+    border: 1px solid;
+    text-align: right;
+    border-radius: 1em;
+    margin: 0 0 1em 0;
+}
+
+.game {
+    min-height: 95vh;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.game .bt {
+    border: 1px solid;
+    border-radius: 0;
+}
+
+.game .bt {
+    min-width: 10vw;
+    max-width: 50vw;
+}
+
+#outPlayerNow, #btNum {
+    padding: 1em;
+    min-width: 50vw;
+    max-width: 90vw;
+    text-align: center;
+    background: rgba(0,0,0,0);
+    border: 1px solid;
+}
+
+#outPlayerNow {
+    border: 3px double;
+}
+
+#btNum {
+    min-width: 10vw;
+    max-width: 50vw;
+}
+
+table, td, tr, th {
+    border: 1px solid;
+    padding: .5em;
+    width: 50vw;
+}
+
+table {
+    border: none;
+}
